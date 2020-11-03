@@ -1,0 +1,553 @@
+Total allocated: 135638 bytes (1398 objects)
+Total retained:  418 bytes (5 objects)
+
+allocated memory by gem
+-----------------------------------
+     71173  http-4.4.1
+     53564  addressable-2.7.0
+      6707  http-parser-1.2.1
+      2642  connection_pool-2.2.3
+      1040  ffi-1.13.1
+       432  other
+        80  forwardable
+
+allocated memory by file
+-----------------------------------
+     36428  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb
+     29592  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb
+     17136  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/idna/pure.rb
+     17113  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/connection.rb
+     15168  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/headers.rb
+      5427  /home/reed/.gem/ruby/2.6.0/gems/http-parser-1.2.1/lib/http-parser/parser.rb
+      2002  /home/reed/.gem/ruby/2.6.0/gems/connection_pool-2.2.3/lib/connection_pool.rb
+      1768  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/response/parser.rb
+      1576  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/response/body.rb
+      1280  /home/reed/.gem/ruby/2.6.0/gems/http-parser-1.2.1/lib/http-parser/types.rb
+      1064  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/client.rb
+      1040  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/struct_by_reference.rb
+       928  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/content_type.rb
+       856  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/response.rb
+       856  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/uri.rb
+       804  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/request/writer.rb
+       712  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/request.rb
+       640  /home/reed/.gem/ruby/2.6.0/gems/connection_pool-2.2.3/lib/connection_pool/timed_stack.rb
+       504  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/chainable.rb
+       432  http_test.rb
+       232  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/timeout/null.rb
+        80  /usr/lib/ruby/2.6.0/forwardable.rb
+
+allocated memory by location
+-----------------------------------
+     19292  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:557
+     16425  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/connection.rb:38
+     10960  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/headers.rb:204
+      5248  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:171
+      5200  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/idna/pure.rb:181
+      4800  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:188
+      3712  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:172
+      3680  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:109
+      2784  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:156
+      2784  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:70
+      2600  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/idna/pure.rb:180
+      2400  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:72
+      2080  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/idna/pure.rb:119
+      2080  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/idna/pure.rb:141
+      2080  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/headers.rb:53
+      2016  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/idna/pure.rb:122
+      2000  /home/reed/.gem/ruby/2.6.0/gems/http-parser-1.2.1/lib/http-parser/parser.rb:222
+      1600  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/idna/pure.rb:74
+      1600  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:900
+      1576  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/response/body.rb:49
+      1536  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:54
+      1075  /home/reed/.gem/ruby/2.6.0/gems/http-parser-1.2.1/lib/http-parser/parser.rb:249
+      1040  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/struct_by_reference.rb:69
+      1040  /home/reed/.gem/ruby/2.6.0/gems/http-parser-1.2.1/lib/http-parser/types.rb:107
+       928  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:148
+       760  /home/reed/.gem/ruby/2.6.0/gems/http-parser-1.2.1/lib/http-parser/parser.rb:27
+       736  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/headers.rb:61
+       720  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:1359
+       720  /home/reed/.gem/ruby/2.6.0/gems/http-parser-1.2.1/lib/http-parser/parser.rb:247
+       696  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:110
+       696  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:55
+       696  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:57
+       696  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:59
+       696  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:63
+       696  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:65
+       696  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:66
+       680  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:458
+       680  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:463
+       680  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:466
+       680  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:467
+       680  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/headers.rb:24
+       600  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:23
+       584  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/response/parser.rb:112
+       544  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/response.rb:58
+       536  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:48
+       504  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/connection.rb:187
+       480  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/idna/pure.rb:220
+       480  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/idna/pure.rb:244
+       480  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:138
+       480  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:398
+
+allocated memory by class
+-----------------------------------
+     51362  String
+     25304  Array
+     21408  Hash
+     15960  MatchData
+      6700  Regexp
+      6080  Proc
+      2000  FFI::Pointer
+      1080  HttpParser::Instance
+       800  HTTP::Options
+       624  Addressable::URI
+       456  Class
+       400  HTTP::Headers
+       400  Range
+       360  Method
+       344  Time
+       232  TCPSocket
+       200  FFI::FunctionType
+       200  HTTP::URI
+       120  HTTP::Connection
+       120  HttpParser::Parser::DataCallback
+       104  HTTP::Request
+       104  HTTP::Response::Parser
+        96  ConnectionPool::TimedStack
+        96  HTTP::Response
+        80  ConnectionPool
+        80  FFI::MemoryPointer
+        80  HTTP::Response::Body
+        80  HttpParser::Parser::Callback
+        80  Integer
+        80  Rational
+        80  Symbol
+        72  HTTP::Request::Writer
+        72  Thread::Mutex
+        64  Thread::ConditionVariable
+        40  HTTP::Client
+        40  HTTP::ContentType
+        40  HTTP::Request::Body
+        40  HTTP::Response::Status
+        40  HTTP::Timeout::Null
+        40  HttpParser::Parser
+        40  HttpParser::Settings
+        40  MemoryTest
+
+allocated objects by gem
+-----------------------------------
+       625  addressable-2.7.0
+       570  http-4.4.1
+       146  http-parser-1.2.1
+        26  ffi-1.13.1
+        24  connection_pool-2.2.3
+         5  other
+         2  forwardable
+
+allocated objects by file
+-----------------------------------
+       410  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb
+       308  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb
+       215  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/idna/pure.rb
+       146  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/headers.rb
+       114  /home/reed/.gem/ruby/2.6.0/gems/http-parser-1.2.1/lib/http-parser/parser.rb
+        32  /home/reed/.gem/ruby/2.6.0/gems/http-parser-1.2.1/lib/http-parser/types.rb
+        31  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/response/parser.rb
+        26  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/struct_by_reference.rb
+        19  /home/reed/.gem/ruby/2.6.0/gems/connection_pool-2.2.3/lib/connection_pool.rb
+        17  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/request.rb
+        14  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/uri.rb
+        12  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/client.rb
+        12  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/connection.rb
+        10  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/content_type.rb
+         9  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/request/writer.rb
+         6  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/response.rb
+         5  /home/reed/.gem/ruby/2.6.0/gems/connection_pool-2.2.3/lib/connection_pool/timed_stack.rb
+         5  http_test.rb
+         3  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/chainable.rb
+         2  /usr/lib/ruby/2.6.0/forwardable.rb
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/response/body.rb
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/timeout/null.rb
+
+allocated objects by location
+-----------------------------------
+       120  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:188
+       118  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:557
+        84  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:171
+        65  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/idna/pure.rb:180
+        65  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/idna/pure.rb:181
+        60  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:72
+        58  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/headers.rb:204
+        52  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/headers.rb:53
+        50  /home/reed/.gem/ruby/2.6.0/gems/http-parser-1.2.1/lib/http-parser/parser.rb:222
+        36  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:109
+        26  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/struct_by_reference.rb:69
+        26  /home/reed/.gem/ruby/2.6.0/gems/http-parser-1.2.1/lib/http-parser/types.rb:107
+        24  /home/reed/.gem/ruby/2.6.0/gems/http-parser-1.2.1/lib/http-parser/parser.rb:249
+        17  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:458
+        17  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:463
+        17  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:466
+        17  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:467
+        15  /home/reed/.gem/ruby/2.6.0/gems/http-parser-1.2.1/lib/http-parser/parser.rb:247
+        14  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/headers.rb:61
+        12  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/idna/pure.rb:119
+        12  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/idna/pure.rb:122
+        12  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/idna/pure.rb:141
+        12  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/idna/pure.rb:220
+        12  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/idna/pure.rb:244
+        12  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:398
+        12  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:407
+        12  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:410
+        12  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:543
+        12  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:561
+        11  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/response/parser.rb:112
+        11  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/response/parser.rb:113
+        10  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/idna/pure.rb:149
+        10  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/idna/pure.rb:74
+        10  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:1120
+        10  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:1851
+        10  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:880
+        10  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:900
+        10  /home/reed/.gem/ruby/2.6.0/gems/http-parser-1.2.1/lib/http-parser/parser.rb:235
+        10  /home/reed/.gem/ruby/2.6.0/gems/http-parser-1.2.1/lib/http-parser/parser.rb:27
+         9  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/headers.rb:24
+         8  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/connection.rb:187
+         7  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/headers.rb:188
+         6  /home/reed/.gem/ruby/2.6.0/gems/connection_pool-2.2.3/lib/connection_pool.rb:55
+         5  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/idna/pure.rb:70
+         5  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:1118
+         5  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:1223
+         5  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:1359
+         5  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:1537
+         5  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:2341
+         5  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:2342
+
+allocated objects by class
+-----------------------------------
+       569  String
+       467  Array
+        76  Proc
+        59  Hash
+        57  MatchData
+        50  FFI::Pointer
+        27  HttpParser::Instance
+        12  Regexp
+        10  HTTP::Headers
+        10  Range
+         5  Addressable::URI
+         5  FFI::FunctionType
+         5  HTTP::URI
+         5  Method
+         4  HTTP::Options
+         4  Time
+         3  HttpParser::Parser::DataCallback
+         2  FFI::MemoryPointer
+         2  HttpParser::Parser::Callback
+         2  Integer
+         2  Rational
+         2  Symbol
+         1  Class
+         1  ConnectionPool
+         1  ConnectionPool::TimedStack
+         1  HTTP::Client
+         1  HTTP::Connection
+         1  HTTP::ContentType
+         1  HTTP::Request
+         1  HTTP::Request::Body
+         1  HTTP::Request::Writer
+         1  HTTP::Response
+         1  HTTP::Response::Body
+         1  HTTP::Response::Parser
+         1  HTTP::Response::Status
+         1  HTTP::Timeout::Null
+         1  HttpParser::Parser
+         1  HttpParser::Settings
+         1  MemoryTest
+         1  TCPSocket
+         1  Thread::ConditionVariable
+         1  Thread::Mutex
+
+retained memory by gem
+-----------------------------------
+       418  connection_pool-2.2.3
+
+retained memory by file
+-----------------------------------
+       418  /home/reed/.gem/ruby/2.6.0/gems/connection_pool-2.2.3/lib/connection_pool.rb
+
+retained memory by location
+-----------------------------------
+       232  /home/reed/.gem/ruby/2.6.0/gems/connection_pool-2.2.3/lib/connection_pool.rb:59
+       106  /home/reed/.gem/ruby/2.6.0/gems/connection_pool-2.2.3/lib/connection_pool.rb:55
+        80  /home/reed/.gem/ruby/2.6.0/gems/connection_pool-2.2.3/lib/connection_pool.rb:54
+
+retained memory by class
+-----------------------------------
+       232  Hash
+       106  String
+        80  Symbol
+
+retained objects by gem
+-----------------------------------
+         5  connection_pool-2.2.3
+
+retained objects by file
+-----------------------------------
+         5  /home/reed/.gem/ruby/2.6.0/gems/connection_pool-2.2.3/lib/connection_pool.rb
+
+retained objects by location
+-----------------------------------
+         2  /home/reed/.gem/ruby/2.6.0/gems/connection_pool-2.2.3/lib/connection_pool.rb:54
+         2  /home/reed/.gem/ruby/2.6.0/gems/connection_pool-2.2.3/lib/connection_pool.rb:55
+         1  /home/reed/.gem/ruby/2.6.0/gems/connection_pool-2.2.3/lib/connection_pool.rb:59
+
+retained objects by class
+-----------------------------------
+         2  String
+         2  Symbol
+         1  Hash
+
+
+Allocated String Report
+-----------------------------------
+        85  "example.com"
+        10  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:1120
+        10  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:463
+        10  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:467
+         5  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/idna/pure.rb:122
+         5  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/idna/pure.rb:70
+         5  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/idna/pure.rb:74
+         5  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:1118
+         5  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:1223
+         5  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:407
+         5  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:410
+         5  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:561
+         4  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:109
+         4  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:127
+         4  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:129
+         1  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:1242
+         1  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:1274
+         1  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:1276
+
+        70  "http"
+        10  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:1851
+        10  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:880
+         5  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/idna/pure.rb:122
+         5  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:407
+         5  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:410
+         5  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:463
+         5  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:467
+         5  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:561
+         5  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:900
+         5  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:904
+         4  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:109
+         4  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:1446
+         1  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:1764
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/request.rb:88
+
+        65  ""
+        24  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:557
+        17  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:466
+         3  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:109
+         2  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/idna/pure.rb:122
+         2  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:1537
+         2  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:407
+         2  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:410
+         2  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:463
+         2  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:467
+         2  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:561
+         2  /home/reed/.gem/ruby/2.6.0/gems/http-parser-1.2.1/lib/http-parser/parser.rb:249
+         1  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:1413
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/response/parser.rb:112
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/response/parser.rb:113
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/response/parser.rb:98
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/response/parser.rb:99
+
+        21  "[^a-zA-Z0-9\\-\\.\\_\\~\\!\\$\\&\\'\\(\\)\\*\\+\\,\\;\\=\\[\\:\\]]"
+        21  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:557
+
+        16  "[^a-zA-Z0-9\\-\\+\\.]"
+        16  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:557
+
+        12  "/"
+         2  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:1565
+         2  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:2459
+         2  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:2465
+         1  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:109
+         1  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:1537
+         1  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:1542
+         1  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:1769
+         1  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:2417
+         1  http_test.rb:18
+
+        12  "[^"
+        12  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:557
+
+        12  "]"
+        12  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:557
+
+         9  "//example.com"
+         5  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:2343
+         4  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:109
+
+         9  "[^a-zA-Z0-9\\-\\.\\_\\~\\!\\$\\&\\'\\(\\)\\*\\+\\,\\;\\=\\:\\@]"
+         9  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:557
+
+         9  "http:"
+         5  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:2342
+         4  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:109
+
+         7  "http://example.com"
+         4  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:1309
+         3  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:2341
+
+         5  "a-zA-Z0-9\\-\\+\\."
+         5  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:557
+
+         5  "a-zA-Z0-9\\-\\.\\_\\~\\!\\$\\&\\'\\(\\)\\*\\+\\,\\;\\=\\[\\:\\]"
+         5  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:557
+
+         4  "Age"
+         2  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/headers.rb:204
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/response/parser.rb:98
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-parser-1.2.1/lib/http-parser/parser.rb:249
+
+         4  "Cache-Control"
+         2  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/headers.rb:204
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/response/parser.rb:113
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-parser-1.2.1/lib/http-parser/parser.rb:249
+
+         4  "Content-Length"
+         2  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/headers.rb:204
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/response/parser.rb:113
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-parser-1.2.1/lib/http-parser/parser.rb:249
+
+         4  "Content-Type"
+         2  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/headers.rb:204
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/response/parser.rb:113
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-parser-1.2.1/lib/http-parser/parser.rb:249
+
+         4  "Date"
+         2  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/headers.rb:204
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/response/parser.rb:113
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-parser-1.2.1/lib/http-parser/parser.rb:249
+
+         4  "Etag"
+         2  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/headers.rb:204
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/response/parser.rb:113
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-parser-1.2.1/lib/http-parser/parser.rb:249
+
+         4  "Expires"
+         2  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/headers.rb:204
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/response/parser.rb:113
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-parser-1.2.1/lib/http-parser/parser.rb:249
+
+         4  "Last-Modified"
+         2  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/headers.rb:204
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/response/parser.rb:113
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-parser-1.2.1/lib/http-parser/parser.rb:249
+
+         4  "Server"
+         2  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/headers.rb:204
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/response/parser.rb:113
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-parser-1.2.1/lib/http-parser/parser.rb:249
+
+         4  "String"
+         4  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:97
+
+         4  "Vary"
+         2  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/headers.rb:204
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/response/parser.rb:113
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-parser-1.2.1/lib/http-parser/parser.rb:249
+
+         4  "X-Cache"
+         2  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/headers.rb:204
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/response/parser.rb:113
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-parser-1.2.1/lib/http-parser/parser.rb:249
+
+         4  "persistent"
+         3  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:188
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:48
+
+         4  "persistent="
+         3  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:188
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:48
+
+         4  "pool-46981697235920-count"
+         4  /home/reed/.gem/ruby/2.6.0/gems/connection_pool-2.2.3/lib/connection_pool.rb:55
+
+         3  "UTF-8"
+         2  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/content_type.rb:25
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/content_type.rb:24
+
+         3  "body"
+         3  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:188
+
+         3  "body="
+         3  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:188
+
+         3  "cookies"
+         3  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:188
+
+         3  "cookies="
+         3  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:188
+
+         3  "encoding"
+         3  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:188
+
+         3  "encoding="
+         3  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:188
+
+         3  "features"
+         3  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:188
+
+         3  "features="
+         3  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:188
+
+         3  "follow"
+         3  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:188
+
+         3  "follow="
+         3  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:188
+
+         3  "form"
+         3  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:188
+
+         3  "form="
+         3  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:188
+
+         3  "get"
+         2  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/request.rb:84
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/request.rb:160
+
+         3  "headers"
+         3  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:188
+
+         3  "headers="
+         3  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:188
+
+         3  "http://example.com/"
+         2  /home/reed/.gem/ruby/2.6.0/gems/addressable-2.7.0/lib/addressable/uri.rb:2341
+         1  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/client.rb:132
+
+         3  "json"
+         3  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:188
+
+         3  "json="
+         3  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:188
+
+         3  "keep_alive_timeout"
+         3  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:188
+
+         3  "keep_alive_timeout="
+         3  /home/reed/.gem/ruby/2.6.0/gems/http-4.4.1/lib/http/options.rb:188
+
+
+Retained String Report
+-----------------------------------
+         1  "pool-46981697235920"
+         1  /home/reed/.gem/ruby/2.6.0/gems/connection_pool-2.2.3/lib/connection_pool.rb:54
+
+         1  "pool-46981697235920-count"
+         1  /home/reed/.gem/ruby/2.6.0/gems/connection_pool-2.2.3/lib/connection_pool.rb:55
+

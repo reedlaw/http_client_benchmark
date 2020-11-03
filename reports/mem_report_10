@@ -1,0 +1,551 @@
+Total allocated: 140014 bytes (1752 objects)
+Total retained:  9992 bytes (171 objects)
+
+allocated memory by gem
+-----------------------------------
+     83816  ethon-0.12.0
+     30270  ffi-1.13.1
+     22136  typhoeus-1.4.0
+      3792  other
+
+allocated memory by file
+-----------------------------------
+     23390  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb
+     19360  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/mirror.rb
+     12840  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb
+     12328  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb
+     12000  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/curls/infos.rb
+     10080  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/request.rb
+      5840  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/http/actionable.rb
+      4720  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/easy_factory.rb
+      4400  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/struct_by_reference.rb
+      4400  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/request/callbacks.rb
+      4160  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb
+      3792  typhoeus_test.rb
+      3560  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy.rb
+      2400  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/response_callbacks.rb
+      2320  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/form.rb
+      2320  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/params.rb
+      2200  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/curls/options.rb
+      2080  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/http.rb
+      1760  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/pool.rb
+      1280  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/autopointer.rb
+      1200  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/struct_layout.rb
+       840  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/operations.rb
+       800  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/util.rb
+       600  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/debug_info.rb
+       400  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/hydra/addable.rb
+       344  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/hydra.rb
+       232  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/hydra/memoizable.rb
+       200  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/hydra/queueable.rb
+       168  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/stack.rb
+
+allocated memory by location
+-----------------------------------
+     21090  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:60
+     18560  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/mirror.rb:13
+      8280  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:25
+      6960  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/request.rb:214
+      6800  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb:174
+      5600  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/curls/infos.rb:142
+      4400  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/struct_by_reference.rb:69
+      3440  typhoeus_test.rb:16
+      3200  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/curls/infos.rb:125
+      2520  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:26
+      2400  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy.rb:236
+      2320  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/form.rb:26
+      2320  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/http/actionable.rb:141
+      2320  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/http/actionable.rb:142
+      2320  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/params.rb:24
+      2320  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/easy_factory.rb:99
+      2320  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/request.rb:116
+      2300  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:62
+      2080  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb:56
+      1800  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb:142
+      1800  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb:162
+      1600  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/curls/infos.rb:107
+      1600  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/curls/infos.rb:110
+      1600  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/curls/options.rb:101
+      1600  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/easy_factory.rb:124
+      1280  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb:31
+      1200  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/http.rb:56
+      1200  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/struct_layout.rb:72
+      1200  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/request/callbacks.rb:137
+      1160  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy.rb:218
+       960  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/pool.rb:43
+       880  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/http.rb:59
+       840  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/operations.rb:13
+       800  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb:27
+       800  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/mirror.rb:17
+       800  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/response_callbacks.rb:33
+       800  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/response_callbacks.rb:57
+       800  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/util.rb:20
+       800  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb:147
+       800  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/request.rb:215
+       800  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/request/callbacks.rb:121
+       800  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/request/callbacks.rb:140
+       640  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/autopointer.rb:87
+       640  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/autopointer.rb:96
+       600  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/curls/options.rb:103
+       600  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:28
+       600  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/debug_info.rb:22
+       480  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:38
+       480  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:53
+       480  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:67
+
+allocated memory by class
+-----------------------------------
+     43870  String
+     43616  Hash
+     14240  FFI::MemoryPointer
+     11040  FFI::Pointer
+      9968  Array
+      3040  Proc
+      2200  Ethon::Curl::Msg
+      1600  Integer
+      1152  Method
+      1120  Typhoeus::Request
+       960  Ethon::Easy
+       896  FFI::AutoPointer
+       880  Ethon::Easy::Http::Get
+       800  Ethon::Easy::Mirror
+       800  Typhoeus::Response
+       640  FFI::AutoPointer::CallableReleaser
+       600  Ethon::Easy::DebugInfo
+       600  FFI::Function
+       400  Ethon::Curl::MsgData
+       400  Ethon::Easy::Form
+       400  Ethon::Easy::Params
+       400  Typhoeus::EasyFactory
+       120  Ethon::Curl::FDSet
+       112  Ethon::Multi
+        80  Typhoeus::Hydra
+        40  Ethon::Curl::Timeval
+        40  MemoryTest
+
+allocated objects by gem
+-----------------------------------
+      1088  ethon-0.12.0
+       362  ffi-1.13.1
+       279  typhoeus-1.4.0
+        23  other
+
+allocated objects by file
+-----------------------------------
+       307  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb
+       300  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/curls/infos.rb
+       190  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb
+       110  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/struct_by_reference.rb
+       110  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/request/callbacks.rb
+        70  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/easy_factory.rb
+        65  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy.rb
+        60  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb
+        60  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb
+        60  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/request.rb
+        55  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/curls/options.rb
+        50  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/http/actionable.rb
+        40  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/http.rb
+        40  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/mirror.rb
+        40  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/response_callbacks.rb
+        32  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/autopointer.rb
+        30  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/struct_layout.rb
+        25  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/pool.rb
+        23  typhoeus_test.rb
+        20  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/util.rb
+        15  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/debug_info.rb
+        15  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/operations.rb
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/form.rb
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/params.rb
+        10  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/hydra/addable.rb
+         2  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/hydra.rb
+         1  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/stack.rb
+         1  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/hydra/memoizable.rb
+         1  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/hydra/queueable.rb
+
+allocated objects by location
+-----------------------------------
+       170  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb:174
+       150  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:60
+       140  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/curls/infos.rb:142
+       110  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/struct_by_reference.rb:69
+        80  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/curls/infos.rb:125
+        60  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy.rb:236
+        45  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb:142
+        45  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb:162
+        40  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/curls/infos.rb:107
+        40  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/curls/infos.rb:110
+        40  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/curls/options.rb:101
+        40  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:62
+        40  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/easy_factory.rb:124
+        30  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/http.rb:56
+        30  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/struct_layout.rb:72
+        30  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/request.rb:214
+        30  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/request/callbacks.rb:137
+        20  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb:27
+        20  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb:31
+        20  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb:56
+        20  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/mirror.rb:13
+        20  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/mirror.rb:17
+        20  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/util.rb:20
+        20  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb:147
+        20  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/request.rb:215
+        20  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/request/callbacks.rb:121
+        20  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/request/callbacks.rb:140
+        20  typhoeus_test.rb:16
+        16  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/autopointer.rb:87
+        16  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/autopointer.rb:96
+        15  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/curls/options.rb:103
+        15  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:25
+        15  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:26
+        15  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:28
+        15  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/debug_info.rb:22
+        15  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/operations.rb:13
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/form.rb:26
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/http.rb:59
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/http/actionable.rb:141
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/http/actionable.rb:142
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/http/actionable.rb:150
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/http/actionable.rb:64
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/http/actionable.rb:74
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/params.rb:24
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/response_callbacks.rb:32
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/response_callbacks.rb:33
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/response_callbacks.rb:56
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/response_callbacks.rb:57
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb:144
+        10  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/easy_factory.rb:155
+
+allocated objects by class
+-----------------------------------
+       430  String
+       356  FFI::MemoryPointer
+       276  FFI::Pointer
+       242  Array
+       128  Hash
+        55  Ethon::Curl::Msg
+        40  Integer
+        35  Proc
+        20  Ethon::Easy::Mirror
+        20  Typhoeus::Response
+        16  FFI::AutoPointer
+        16  FFI::AutoPointer::CallableReleaser
+        16  Method
+        15  Ethon::Easy::DebugInfo
+        15  FFI::Function
+        10  Ethon::Curl::MsgData
+        10  Ethon::Easy::Form
+        10  Ethon::Easy::Http::Get
+        10  Ethon::Easy::Params
+        10  Typhoeus::EasyFactory
+        10  Typhoeus::Request
+         5  Ethon::Easy
+         3  Ethon::Curl::FDSet
+         1  Ethon::Curl::Timeval
+         1  Ethon::Multi
+         1  MemoryTest
+         1  Typhoeus::Hydra
+
+retained memory by gem
+-----------------------------------
+      6896  ethon-0.12.0
+      1504  typhoeus-1.4.0
+      1280  ffi-1.13.1
+       312  other
+
+retained memory by file
+-----------------------------------
+      2640  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb
+      1680  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb
+      1280  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/autopointer.rb
+       960  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/pool.rb
+       840  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/operations.rb
+       600  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/curls/options.rb
+       568  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb
+       400  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/debug_info.rb
+       312  typhoeus_test.rb
+       232  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/hydra/memoizable.rb
+       200  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/hydra/queueable.rb
+       168  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/stack.rb
+       112  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/hydra.rb
+
+retained memory by location
+-----------------------------------
+      1280  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb:31
+       960  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/pool.rb:43
+       840  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/operations.rb:13
+       640  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/autopointer.rb:87
+       640  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/autopointer.rb:96
+       600  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/curls/options.rb:103
+       480  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:38
+       480  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:53
+       480  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:67
+       400  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:25
+       400  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:26
+       400  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:28
+       400  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/debug_info.rb:22
+       400  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb:27
+       312  typhoeus_test.rb:14
+       232  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/hydra/memoizable.rb:21
+       200  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/hydra/queueable.rb:17
+       168  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb:16
+       168  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/stack.rb:14
+       112  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/hydra.rb:92
+        80  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb:27
+        80  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb:28
+        80  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb:29
+        80  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb:30
+        40  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb:26
+        40  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb:31
+
+retained memory by class
+-----------------------------------
+      1440  Proc
+      1408  Array
+      1152  Method
+       960  Ethon::Easy
+       896  FFI::AutoPointer
+       800  String
+       640  FFI::AutoPointer::CallableReleaser
+       640  FFI::Pointer
+       600  FFI::Function
+       464  Hash
+       400  Ethon::Easy::DebugInfo
+       240  FFI::MemoryPointer
+       120  Ethon::Curl::FDSet
+       112  Ethon::Multi
+        80  Typhoeus::Hydra
+        40  Ethon::Curl::Timeval
+
+retained objects by gem
+-----------------------------------
+       129  ethon-0.12.0
+        32  ffi-1.13.1
+         8  typhoeus-1.4.0
+         2  other
+
+retained objects by file
+-----------------------------------
+        45  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb
+        32  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/autopointer.rb
+        30  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb
+        15  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/curls/options.rb
+        15  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/operations.rb
+        13  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/debug_info.rb
+         5  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/pool.rb
+         2  typhoeus_test.rb
+         1  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/stack.rb
+         1  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/hydra.rb
+         1  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/hydra/memoizable.rb
+         1  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/hydra/queueable.rb
+
+retained objects by location
+-----------------------------------
+        20  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb:31
+        16  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/autopointer.rb:87
+        16  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/autopointer.rb:96
+        15  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/curls/options.rb:103
+        15  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/operations.rb:13
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:25
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:26
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:28
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/debug_info.rb:22
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb:27
+         5  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:38
+         5  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:53
+         5  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:67
+         5  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/pool.rb:43
+         3  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb:16
+         2  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb:27
+         2  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb:28
+         2  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb:29
+         2  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb:30
+         2  typhoeus_test.rb:14
+         1  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb:26
+         1  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb:31
+         1  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/multi/stack.rb:14
+         1  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/hydra.rb:92
+         1  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/hydra/memoizable.rb:21
+         1  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/hydra/queueable.rb:17
+
+retained objects by class
+-----------------------------------
+        28  Array
+        20  String
+        16  FFI::AutoPointer
+        16  FFI::AutoPointer::CallableReleaser
+        16  FFI::Pointer
+        16  Method
+        15  FFI::Function
+        15  Proc
+        10  Ethon::Easy::DebugInfo
+         6  FFI::MemoryPointer
+         5  Ethon::Easy
+         3  Ethon::Curl::FDSet
+         2  Hash
+         1  Ethon::Curl::Timeval
+         1  Ethon::Multi
+         1  Typhoeus::Hydra
+
+
+Allocated String Report
+-----------------------------------
+        30  ""
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:25
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:26
+        10  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/request.rb:215
+
+        20  "\x00"
+        20  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/util.rb:20
+
+        20  "2606:2800:220:1:248:1893:25c8:1946"
+        20  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:62
+
+        20  "Get"
+        20  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/http.rb:56
+
+        20  "http://example.com/"
+        20  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:62
+
+        10  "\r\n"
+        10  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:60
+
+        10  "Cache-Control: max-age=604800\r\n"
+        10  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:60
+
+        10  "Content-Length: 1256\r\n"
+        10  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:60
+
+        10  "Content-Type: text/html; charset=UTF-8\r\n"
+        10  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:60
+
+        10  "Date: Tue, 03 Nov 2020 20:49:57 GMT\r\n"
+        10  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:60
+
+        10  "Etag: \"3147526947+ident\"\r\n"
+        10  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:60
+
+        10  "Expect"
+        10  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/request.rb:215
+
+        10  "Expect: "
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb:56
+
+        10  "Expires: Tue, 10 Nov 2020 20:49:57 GMT\r\n"
+        10  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:60
+
+        10  "HTTP/1.1 200 OK\r\n"
+        10  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:60
+
+        10  "Last-Modified: Thu, 17 Oct 2019 07:18:26 GMT\r\n"
+        10  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:60
+
+        10  "User-Agent: Typhoeus - https://github.com/typhoeus/typhoeus"
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb:56
+
+        10  "Vary: Accept-Encoding\r\n"
+        10  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:60
+
+        10  "X-Cache: HIT\r\n"
+        10  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:60
+
+        10  "all"
+        10  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/pool.rb:21
+
+        10  "connecttimeout"
+        10  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/easy_factory.rb:124
+
+        10  "connecttimeout_ms"
+        10  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/easy_factory.rb:124
+
+        10  "flush"
+        10  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/pool.rb:20
+
+        10  "get"
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/http.rb:56
+
+        10  "headers"
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy.rb:236
+
+        10  "headers="
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy.rb:236
+
+        10  "maxredirs"
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy.rb:236
+
+        10  "maxredirs="
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy.rb:236
+
+        10  "nosignal"
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy.rb:236
+
+        10  "nosignal="
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy.rb:236
+
+        10  "timeout"
+        10  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/easy_factory.rb:124
+
+        10  "timeout_ms"
+        10  /home/reed/.gem/ruby/2.6.0/gems/typhoeus-1.4.0/lib/typhoeus/easy_factory.rb:124
+
+         6  ";\n            width: auto;\n        }\n    }\n    </style>    \n</head>\n\n<body>\n<div>\n    <h1>Example Domain</h1>\n    <p>This domain is for use in illustrative examples in documents. You may use this\n    "
+         6  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:60
+
+         6  "<!doctype html>\n<html>\n<head>\n    <title>Example Domain</title>\n\n    <meta charset=\"utf-8\" />\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" />\n    <meta name=\"viewport\" conten"
+         6  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:60
+
+         5  "<!doctype html>\n<html>\n<head>\n    <title>Example Domain</title>\n\n    <meta charset=\"utf-8\" />\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" />\n    <meta name=\"viewport\" conten"
+         5  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:25
+
+         4  "\n            width: auto;\n        }\n    }\n    </style>    \n</head>\n\n<body>\n<div>\n    <h1>Example Domain</h1>\n    <p>This domain is for use in illustrative examples in documents. You may use this\n    d"
+         4  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:60
+
+         4  "<!doctype html>\n<html>\n<head>\n    <title>Example Domain</title>\n\n    <meta charset=\"utf-8\" />\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" />\n    <meta name=\"viewport\" conten"
+         4  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:60
+
+         2  "Age: 21827\r\n"
+         2  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:60
+
+         1  "Age: 21247\r\n"
+         1  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:60
+
+         1  "Age: 21829\r\n"
+         1  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:60
+
+         1  "Age: 369457\r\n"
+         1  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:60
+
+         1  "Age: 384460\r\n"
+         1  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:60
+
+         1  "Age: 384474\r\n"
+         1  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:60
+
+         1  "Age: 389124\r\n"
+         1  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:60
+
+         1  "Age: 449384\r\n"
+         1  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:60
+
+         1  "Age: 555207\r\n"
+         1  /home/reed/.gem/ruby/2.6.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:60
+
+         1  "HTTP/1.1 200 OK\r\nAge: 21247\r\nCache-Control: max-age=604800\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Tue, 03 Nov 2020 20:49:57 GMT\r\nEtag: \"3147526947+ident\"\r\nExpires: Tue, 10 Nov 2020 20:49:57 GM"
+         1  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:26
+
+         1  "HTTP/1.1 200 OK\r\nAge: 21827\r\nCache-Control: max-age=604800\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Tue, 03 Nov 2020 20:49:57 GMT\r\nEtag: \"3147526947+ident\"\r\nExpires: Tue, 10 Nov 2020 20:49:57 GM"
+         1  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:26
+
+         1  "HTTP/1.1 200 OK\r\nAge: 389124\r\nCache-Control: max-age=604800\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Tue, 03 Nov 2020 20:49:57 GMT\r\nEtag: \"3147526947+ident\"\r\nExpires: Tue, 10 Nov 2020 20:49:57 G"
+         1  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:26
+
+         1  "HTTP/1.1 200 OK\r\nAge: 449384\r\nCache-Control: max-age=604800\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Tue, 03 Nov 2020 20:49:57 GMT\r\nEtag: \"3147526947+ident\"\r\nExpires: Tue, 10 Nov 2020 20:49:57 G"
+         1  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:26
+
+
+Retained String Report
+-----------------------------------
+        20  ""
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:25
+        10  /home/reed/.gem/ruby/2.6.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:26
+
